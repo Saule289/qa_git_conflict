@@ -7,4 +7,11 @@ public class new_test {
     void newTest() {
         Assertions.assertTrue(5 > 3);
     }
-}
+
+    $("div").shouldhave("conflict");
+    System.Logger.Level("Conflict");
+}}
+
+
+
+
