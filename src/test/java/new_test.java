@@ -5,10 +5,10 @@ public class new_test {
 
     @Test
     void newTest() {
-        Assertions.assertTrue(5 > 3);
+        Assertions.assertTrue(4 >= 3);
     }
 
-    $("div").shouldhave("conflict");
+    $("div").shouldhave("my_test_ignore");
     System.Logger.Level("Conflict");
 }}
 
